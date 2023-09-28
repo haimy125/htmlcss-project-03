@@ -514,6 +514,9 @@ a {
 }
 
 .member-item__img-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding-top: 28px;
     background: #eaf6ff;
     border-radius: 6px;
