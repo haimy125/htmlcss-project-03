@@ -5,6 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Shine Smile</title>
 
+        <!-- Animation -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+
         <link
             rel="apple-touch-icon"
             sizes="57x57"
@@ -150,7 +156,7 @@
                 <section class="hero">
                     <!-- Hero Content -->
                     <section class="hero__content">
-                        <h1 class="hero__heading">
+                        <h1 class="hero__heading wow animate__pulse wow">
                             Exceptional dental care for all ages.
                         </h1>
                         <p class="hero__desc">
@@ -200,7 +206,7 @@
                             <img
                                 src="./assets/img/hero-01.jpg"
                                 alt=""
-                                class="service__img"
+                                class="service__img wow animate__slideInLeft"
                             />
                         </figure>
                         <div>
@@ -839,5 +845,16 @@
                 </div>
             </div>
         </footer>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+            integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script>
+            new WOW({
+                animateClass: "animate__animated",
+            }).init();
+        </script>
     </body>
 </html>
